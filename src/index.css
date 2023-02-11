@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cartEnd {
+  background-color: rgba(37, 37, 37, 0.479);
+  position: fixed;
+  align-items: center;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  inset: 0;
+}
+.cardEnd {
+  background-color: #ffffff;
+  width: 400px;
+  height: 400px;
+  z-index: 99999;
+  display: grid;
+  place-items: center;
+  inset: 0;
+}
